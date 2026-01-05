@@ -66,3 +66,17 @@ export const EquipmentContent = () => {
           <div className="items-center box-border caret-transparent flex flex-col min-h-0 min-w-0 text-center p-4 rounded-xl md:min-h-[auto] md:min-w-[auto] hover:bg-white/50">
             <div className="bg-gray-100 box-border caret-transparent min-h-0 min-w-0 mb-3 p-3 rounded-full md:min-h-[auto] md:min-w-[auto]">
               <img
+                src="https://c.animaapp.com/mk1flv6rHV7KCD/assets/icon-19.svg"
+                alt="Icon"
+                className="text-sky-800 box-border caret-transparent h-10 w-10"
+              />
+            </div>
+            <h3 className="text-gray-700 text-sm font-medium box-border caret-transparent leading-5 min-h-0 min-w-0 md:min-h-[auto] md:min-w-[auto]">
+              Payment Terminals
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};

@@ -1,6 +1,6 @@
-import { Header } from "@/sections/Header";
+import { Header } from "@/sections/Header/components";
 import { Main } from "@/components/Main";
-import { Footer } from "@/sections/Footer";
+import { Footer } from "@/sections/Footer/components";
 import { FloatingButton } from "@/components/FloatingButton";
 
 export const PageWrapper = () => {

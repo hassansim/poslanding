@@ -66,3 +66,9 @@ export const FeaturesContent = () => {
               Seamlessly switch between desktop, tablet, and mobile devices
               without losing functionality.
             </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};

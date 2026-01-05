@@ -66,3 +66,70 @@ export const FooterGrid = () => {
           </li>
           <li className="box-border caret-transparent mt-3">
             <button className="text-gray-400 bg-transparent caret-transparent text-center p-0 hover:text-white">
+              Pricing
+            </button>
+          </li>
+          <li className="box-border caret-transparent mt-3">
+            <button className="text-gray-400 bg-transparent caret-transparent text-center p-0 hover:text-white">
+              POS Equipment
+            </button>
+          </li>
+          <li className="box-border caret-transparent mt-3">
+            <button className="text-gray-400 bg-transparent caret-transparent text-center p-0 hover:text-white">
+              Testimonials
+            </button>
+          </li>
+          <li className="box-border caret-transparent mt-3">
+            <button className="text-gray-400 bg-transparent caret-transparent text-center p-0 hover:text-white">
+              Contact
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div className="box-border caret-transparent">
+        <h3 className="text-lg font-semibold box-border caret-transparent leading-7 mb-4">
+          Support
+        </h3>
+        <ul className="box-border caret-transparent list-none pl-0">
+          <li className="box-border caret-transparent">
+            <button className="text-gray-400 bg-transparent caret-transparent text-center p-0 hover:text-white">
+              Help Center
+            </button>
+          </li>
+          <li className="box-border caret-transparent mt-3">
+            <button className="text-gray-400 bg-transparent caret-transparent text-center p-0 hover:text-white">
+              Documentation
+            </button>
+          </li>
+          <li className="box-border caret-transparent mt-3">
+            <button className="text-gray-400 bg-transparent caret-transparent text-center p-0 hover:text-white">
+              API Reference
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div className="box-border caret-transparent">
+        <h3 className="text-lg font-semibold box-border caret-transparent leading-7 mb-4">
+          Company
+        </h3>
+        <ul className="box-border caret-transparent list-none pl-0">
+          <li className="box-border caret-transparent">
+            <button className="text-gray-400 bg-transparent caret-transparent text-center p-0 hover:text-white">
+              About Us
+            </button>
+          </li>
+          <li className="box-border caret-transparent mt-3">
+            <button className="text-gray-400 bg-transparent caret-transparent text-center p-0 hover:text-white">
+              Blog
+            </button>
+          </li>
+          <li className="box-border caret-transparent mt-3">
+            <button className="text-gray-400 bg-transparent caret-transparent text-center p-0 hover:text-white">
+              Careers
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  );
+};

@@ -66,3 +66,88 @@ export const ContactContent = () => {
                     placeholder="Your phone number"
                     value=""
                     className="box-border caret-transparent w-full border border-gray-300 px-4 py-3 rounded-xl border-solid"
+                  />
+                </div>
+                <div className="box-border caret-transparent">
+                  <label className="text-gray-700 font-medium box-border caret-transparent block mb-2">
+                    Company
+                  </label>
+                  <input
+                    type="text"
+                    name="company"
+                    placeholder="Your company name"
+                    value=""
+                    className="box-border caret-transparent w-full border border-gray-300 px-4 py-3 rounded-xl border-solid"
+                  />
+                </div>
+              </div>
+              <div className="box-border caret-transparent mb-6">
+                <label className="text-gray-700 font-medium box-border caret-transparent block mb-2">
+                  Message{" "}
+                  <span className="text-red-500 box-border caret-transparent">
+                    *
+                  </span>
+                </label>
+                <textarea
+                  name="message"
+                  placeholder="Tell us about your needs..."
+                  rows={6}
+                  value=""
+                  className="box-border caret-transparent w-full border border-gray-300 px-4 py-3 rounded-xl border-solid resize-none"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                className="text-white bg-sky-800 caret-transparent w-full px-6 py-3 rounded-xl hover:bg-sky-900"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+        <div className="box-border caret-transparent">
+          <div className="bg-white shadow-[rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0)_0px_0px_0px_0px,rgba(0,0,0,0.1)_0px_10px_15px_-3px,rgba(0,0,0,0.1)_0px_4px_6px_-4px] box-border caret-transparent p-6 rounded-2xl mb-6">
+            <h3 className="text-gray-900 text-lg font-semibold box-border caret-transparent leading-7 mb-4">
+              Contact Information
+            </h3>
+            <div className="box-border caret-transparent">
+              <div className="box-border caret-transparent flex mb-4">
+                <span className="text-sky-800 box-border caret-transparent mr-3">📞</span>
+                <div className="box-border caret-transparent">
+                  <p className="text-gray-700 font-medium box-border caret-transparent">
+                    Phone
+                  </p>
+                  <p className="text-gray-600 text-sm box-border caret-transparent">
+                    +94 11 234 5678
+                  </p>
+                </div>
+              </div>
+              <div className="box-border caret-transparent flex mb-4">
+                <span className="text-sky-800 box-border caret-transparent mr-3">✉️</span>
+                <div className="box-border caret-transparent">
+                  <p className="text-gray-700 font-medium box-border caret-transparent">
+                    Email
+                  </p>
+                  <p className="text-gray-600 text-sm box-border caret-transparent">
+                    info@myflexipos.lk
+                  </p>
+                </div>
+              </div>
+              <div className="box-border caret-transparent flex">
+                <span className="text-sky-800 box-border caret-transparent mr-3">📍</span>
+                <div className="box-border caret-transparent">
+                  <p className="text-gray-700 font-medium box-border caret-transparent">
+                    Address
+                  </p>
+                  <p className="text-gray-600 text-sm box-border caret-transparent">
+                    123 Business Street, Colombo 03, Sri Lanka
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};

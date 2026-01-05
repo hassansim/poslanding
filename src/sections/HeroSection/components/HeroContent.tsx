@@ -66,3 +66,14 @@ export const HeroContent = () => {
         </div>
         <div className="box-border caret-transparent w-full md:w-6/12">
           <div className="relative box-border caret-transparent">
+            <img
+              src="https://c.animaapp.com/mk1flv6rHV7KCD/assets/hero-image.svg"
+              alt="POS System Dashboard"
+              className="box-border caret-transparent w-full h-auto rounded-2xl shadow-2xl"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};

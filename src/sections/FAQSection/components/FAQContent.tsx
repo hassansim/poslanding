@@ -66,3 +66,11 @@ export const FAQContent = () => {
             <img
               src="https://c.animaapp.com/mk1flv6rHV7KCD/assets/icon-29.svg"
               alt="Icon"
+              className="box-border caret-transparent h-5 w-5 ml-2"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+};

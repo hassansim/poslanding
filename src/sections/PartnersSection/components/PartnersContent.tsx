@@ -66,3 +66,34 @@ export const PartnersContent = () => {
                   className="box-border caret-transparent max-h-16 max-w-full object-contain w-full"
                 />
               </div>
+            </div>
+            <div
+              role="group"
+              className="box-border caret-transparent basis-full shrink-0 pl-4 md:basis-[16.6667%]"
+            >
+              <div className="items-center box-border caret-transparent flex justify-center p-4">
+                <img
+                  src="https://c.animaapp.com/mk1flv6rHV7KCD/assets/5.webp"
+                  alt="Client logo 5"
+                  className="box-border caret-transparent max-h-16 max-w-full object-contain w-full"
+                />
+              </div>
+            </div>
+            <div
+              role="group"
+              className="box-border caret-transparent basis-full shrink-0 pl-4 md:basis-[16.6667%]"
+            >
+              <div className="items-center box-border caret-transparent flex justify-center p-4">
+                <img
+                  src="https://c.animaapp.com/mk1flv6rHV7KCD/assets/6.webp"
+                  alt="Client logo 6"
+                  className="box-border caret-transparent max-h-16 max-w-full object-contain w-full"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
